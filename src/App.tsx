@@ -3,12 +3,29 @@ import React from 'react';
 function App() {
   const allImageData = [
     {
-      title: 'Image 1',
-      size: '30cm x 27cm'
+      title: 'Butterfly',
+      year: '2023',
+      size: '17cm x 12cm'
     },
     {
-      title: 'Lorem ipsum',
-      size: '30cm x 27cm'
+      title: 'Cherry',
+      year: '2024',
+      size: '20cm x 30cm'
+    },
+    {
+      title: 'Sixteen Dancers',
+      year: '2023',
+      size: '15cm x 15cm'
+    },
+    {
+      title: 'Skive',
+      year: '2024',
+      size: '22cm x 17cm'
+    },
+    {
+      title: 'Split',
+      year: '2023',
+      size: '35cm x 24cm'
     },
   ];
 
@@ -30,7 +47,7 @@ function App() {
               alt={`Erin Sleeper: ${imageData.title}`}
             />
           </picture>
-          <h2>{imageData.title}</h2>
+          <h2><span>{imageData.title}</span>, {imageData.year}</h2>
           <h3>{imageData.size}</h3>
         </div>
       )
