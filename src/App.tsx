@@ -3,9 +3,9 @@ import React from 'react';
 function App() {
   const allImageData = [
     {
-      title: 'Butterfly',
+      title: 'Mint',
       year: '2023',
-      size: '17cm x 12cm'
+      size: '34cm x 29cm'
     },
     {
       title: 'Cherry',
